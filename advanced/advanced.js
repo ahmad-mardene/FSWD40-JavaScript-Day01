@@ -41,7 +41,7 @@ function task3(){
  var pString=oString.split('Vienna');
  var Vienna=[];
 
- 
+ pString.pop();
  pString.forEach(function(){Vienna.push("<p>Vienna</p>")});
  
  document.getElementById("task3").innerHTML=Vienna.join('');
