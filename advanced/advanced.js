@@ -42,7 +42,7 @@ function task3(){
  var Vienna=[];
 
  
- pString.forEach(Vienna.push("<p>Vienna</p>"));
+ pString.forEach(function(){Vienna.push("<p>Vienna</p>")});
  
  document.getElementById("task3").innerHTML=Vienna.join('');
 
