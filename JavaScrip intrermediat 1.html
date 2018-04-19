@@ -6,8 +6,10 @@
 </head>
 <body>
 	<script type="text/javascript">
-		var cars = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"]
-		document.write(cars.sort())
+		var cars = [ "Tesla", "Audi" , "Renault" , "Volvo" , "Mazda" , "Fiat" , "Ferrari" ];
+		var carsSorts = cars.sort();
+		var carsSpaces = carsSorts.join(' ');
+		document.write(carsSpaces);
 	</script>
 
 </body>
