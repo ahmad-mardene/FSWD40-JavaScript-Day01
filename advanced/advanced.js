@@ -42,10 +42,8 @@ function task3(){
  var Vienna=[];
 
  
- for(var i=0;i<(pString.length-1);++i)
-  { Vienna.push("<p>Vienna</p>");
-  	
-  }	
+ pString.map(Vienna.push("<p>Vienna</p>"));
+ 
  document.getElementById("task3").innerHTML=Vienna.join('');
 
 }
